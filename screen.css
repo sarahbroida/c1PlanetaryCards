@@ -1,1 +1,37 @@
 /* Add screen styles below */
+
+body {
+    background: #232531;
+}
+
+.All {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    text-align: auto;
+}
+
+.Planets {
+    flex: 50%;
+    padding: 5px;
+}
+
+.SunTop {
+    flex: 50%;
+    margin: 5px;
+}
+
+.SunBottom {
+    flex: 50%;
+    margin: 5px;
+}
+
+.Sun img {
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.Planets img {
+    vertical-align: middle;
+    margin: 5px 27px 10px 5px;
+}
